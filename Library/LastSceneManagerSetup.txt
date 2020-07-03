@@ -1,5 +1,5 @@
 sceneSetups:
-- path: "Assets/6\uC6D417\uC77C(\uC720\uAC74\uC6B0).unity"
+- path: Assets/Cartoon Cat/Cartoon Cat.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
