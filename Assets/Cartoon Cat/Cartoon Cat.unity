@@ -421,7 +421,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 68.97789
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -446,13 +446,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 474256402}
-  m_LocalRotation: {x: 0.24823077, y: -0.006272655, z: 0.020979248, w: 0.96845347}
-  m_LocalPosition: {x: -0.26, y: 4.55, z: -9.3}
+  m_LocalRotation: {x: 0.35002145, y: 0.024464726, z: 0.00921629, w: 0.93637687}
+  m_LocalPosition: {x: -1, y: 8, z: -14}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 28.755001, y: -360.113, z: 2.453}
+  m_LocalEulerAnglesHint: {x: 40.924004, y: -356.033, z: 2.608}
 --- !u!1 &557508467
 GameObject:
   m_ObjectHideFlags: 0
@@ -714,10 +714,10 @@ Rigidbody:
   m_Mass: 100
   m_Drag: 100
   m_AngularDrag: 0.05
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 116
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!1 &1150707763
 GameObject:
@@ -728,6 +728,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1150707764}
+  - component: {fileID: 1150707765}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -749,6 +750,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1150707765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1150707763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 826097b415b168b419a3a6c3d8c2eaaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameoverText: {fileID: 1368112134}
+  timeText: {fileID: 748983906}
+  recordText: {fileID: 557508469}
 --- !u!1 &1174980935
 GameObject:
   m_ObjectHideFlags: 0
@@ -860,7 +876,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1368112135
 RectTransform:
   m_ObjectHideFlags: 0
@@ -878,7 +894,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -142, y: -389}
+  m_AnchoredPosition: {x: 411, y: -734}
   m_SizeDelta: {x: 160, y: 53.034866}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1368112136
@@ -941,7 +957,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerRigidbody: {fileID: 0}
-  speed: 8
+  speed: 15
 --- !u!136 &1424190083
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1238,10 +1254,10 @@ Rigidbody:
   m_Mass: 100
   m_Drag: 100
   m_AngularDrag: 0.05
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 116
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!1001 &1973139870
 PrefabInstance:
@@ -1409,10 +1425,10 @@ Rigidbody:
   m_Mass: 100
   m_Drag: 100
   m_AngularDrag: 0.05
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 116
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!1 &2082835912
 GameObject:
@@ -1519,10 +1535,10 @@ Rigidbody:
   m_Mass: 100
   m_Drag: 100
   m_AngularDrag: 0.05
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 116
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!1001 &3723467010523582829
 PrefabInstance:
